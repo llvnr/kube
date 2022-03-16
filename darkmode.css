@@ -1,0 +1,22 @@
+:root {
+    --container-sidebar-bgcolor: #202225;
+    --container-body-bgcolor: #36393F;
+    --container-body-color: white;
+    --card-views-bgcolor: #2F3136;
+    --card-views-color: white;
+    --card-parametres-border: 1px solid black;
+    --card-parametres-bgcolor: #202225;
+    --card-parametres-color: white;
+    --card-parametres-bgcolor-hover: #36393F;
+    --btn-border: 1px solid black;
+    --scrollbar-color: aquamarine #ffffff;
+    --webkit-scrollbar-track-background: #36393F;
+    --webkit-scrollbar-thumb-bgcolor: aquamarine; 
+    --webkit-scrollbar-thumb-border: 3px solid aquamarine;
+    --indicator-border: 3px solid rgba(255,255,255,.3);
+    --indicator-border-topcolor: aquamarine;
+    --cadre-parametres-border: 1px solid black;
+    --cadre-parametres-bgcolor: #202225;
+    --cadre-parametres-color: white;
+    --checkbox-label-bgcolor: #111;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/topbar.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/no-topbar.css"> -->
+    <title>Kube</title>
+    <script defer src="renderer.js" type="module"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="mode">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="container__sidebar" id="container__sidebar">
+
+            <div class="sidebar__header">
+
+                <img src="https://img.icons8.com/stickers/50/000000/sugar-cube.png"/>
+
+            </div>
+            <div class="sidebar__navigation" id="navigation">
+ 
+            </div>
+            <div class="sidebar__footer" id="footer">
+
+
+            </div>
+
+        </div>
+        <div class="container__body" id="body">
+
+            <webview
+                id="webview"
+                autosize="on"
+                src="https://discord.com/app"
+                data-home="https://discord.com/app"
+                useragent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+            ></webview>
+           <!-- <h1>Test</h1>
+            <p>dqjskldjqsd</p> -->
+
+        </div>
+
+    </div>
+
+  </body>
+</html>
